@@ -1,0 +1,26 @@
+.Header{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.First{
+  background-color:lightpink;
+  width:150px;
+  
+  
+}
+.Middle{
+  background-color:lightgreen;
+  flex:1;
+  padding-right:50px;
+  margin-right:40px;
+  margin-left:50px;
+  max-width:400px;
+  
+}
+.Last{
+  background-color:lightskyblue;
+  width:200px;
+  
+}

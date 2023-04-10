@@ -1,0 +1,49 @@
+.search-bar{
+  display:block;
+  margin-bottom:10px;
+  margin-left:25px;
+  cursor:pointer;
+
+
+}
+p{
+  font-family:Roboto, Arial;
+  margin-top:0 ;
+  margin-bottom:0;
+}
+.thumbnail{
+ width:100%;
+ margin-bottom:6px;
+}
+
+.title,
+.watch{
+  color:rgb(96,96,96);
+  font-size:15px;
+}
+.title{
+  margin-bottom:4px;
+}
+  
+
+.video-info-grid{
+  display:grid;
+  grid-template-columns:50px 1fr;
+}
+.video-grid{
+  displaY:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  column-gap:16px;
+  row-gap:40px;
+}
+.profile-picture{
+  width:40px;
+  border-radius:40px;
+}  
+.video-title{
+  margin-top:0px;
+  font-size:15px;
+  font-weight:500;
+  line-height:20px;
+  margin-bottom:12px; 
+}
